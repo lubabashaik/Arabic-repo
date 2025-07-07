@@ -14,7 +14,7 @@ function App() {
           title="Previous"
           onClick={() => console.log("Left arrow clicked")}
         >
-          <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#f0f0f0] shadow-[4px_4px_10px_#d0d0d0,_-4px_-4px_10px_#ffffff] hover:scale-105 transition duration-300">
+          <div className="mt-[450px] sm:mt-0 w-14 h-14 flex items-center justify-center rounded-full bg-[#f0f0f0] shadow-[4px_4px_10px_#d0d0d0,_-4px_-4px_10px_#ffffff] hover:scale-105 transition duration-300">
             <FaArrowLeft size={18} className="text-gray-400" />
           </div>
         </div>
@@ -25,7 +25,7 @@ function App() {
           title="Next"
           onClick={() => console.log("Right arrow clicked")}
         >
-          <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#f0f0f0] shadow-[4px_4px_10px_#d0d0d0,_-4px_-4px_10px_#ffffff] hover:scale-105 transition duration-300">
+          <div className="mt-[450px] sm:mt-0 w-14 h-14 flex items-center justify-center rounded-full bg-[#f0f0f0] shadow-[4px_4px_10px_#d0d0d0,_-4px_-4px_10px_#ffffff] hover:scale-105 transition duration-300">
             <FaArrowRight size={18} className="text-gray-400" />
           </div>
         </div>
